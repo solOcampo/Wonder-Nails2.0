@@ -1,11 +1,12 @@
-import Main from "./components/Main";
-
-import '../src/styles/home.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
+import './styles/styles.css';
 
 function App() {
   return (
     <div className="home">
-     <h1>aca</h1> 
+      <Header/><Footer/>
       <Main/>
     </div>
   );
