@@ -1,0 +1,73 @@
+.carrusel body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.carrusel  button {
+    width: 20px;
+    border: none;
+    font-family: var(--fuenteSubtitulos);
+    font-weight: bold;
+    width: 2rem;
+    display: flex;
+    color: white;
+    padding: 7px;
+    background-color: var(--rosaOscuro);
+    margin: 5px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .carrusel img {
+    display: block;
+    width: 100%;
+  }
+  
+  .carrusel  section {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carrusel article {
+    display: flex;
+    width: 200%;
+    animation: bannermove 20s linear infinite;
+  }
+  
+  .carrusel article.paused {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+  
+  .carrusel div {
+    width: 100%;
+  }
+  
+  .carrusel ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  /* li {
+    width: 100%;
+    background: blue;
+  }
+  
+  li:nth-child(2) {
+    background: green;
+  }
+  
+  li:nth-child(3) {
+    background: yellow;
+  }
+   */
+  @keyframes bannermove {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }

@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from'../assets/Home/logo.png';
 
 function Footer() {
   return (
@@ -10,25 +11,11 @@ function Footer() {
   </div>
   <div className="container__footer">
      <div className="container_ilustration">
-      <div className="icons"><img src="/img/Group (2).svg" alt=""/></div>
-      <div className="__ilustration">
-        <h3>Envio</h3>
-        <p>Desde y hasta cualquier lugar del país. Asegurado por el valor declarado.</p>
-      </div>
-      <div className="icons"> <i className="far fa-heart"></i></div>
-      <div className="__ilustration">
-        <h3>Precios accesibles</h3>
-        <p>Nos encanta dar a los clientes los mejores precios del mercado.</p>
-      </div>
-      <div className="icons"> <i className="far fa-handshake"></i></div>
-      <div className="__ilustration">
-        <h3>Productos de alta calidad</h3>
-        <p>Tenemos una gran cantidad de suministro de uñas de alta calidad. </p>
-      </div>
+      
     </div>   
     <div className="box__footer">
       <div className="logo">
-        <img src="/images/WonderNails-Logotipo.png"/>
+        <img src={logo}/>
       </div>
       <div className="terms">
         <p>Suscríbete a nuestra newsletter y entérate de todas nuestras novedades.</p>
