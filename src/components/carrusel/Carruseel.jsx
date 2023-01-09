@@ -1,4 +1,5 @@
 import React from 'react'
+
 import '../carrusel/carrusel.css'
 import img1 from '../../assets/Home/img-instagram-1.jpg'
 import img2 from '../../assets/Home/img-instagram-2.jpg'

@@ -2,6 +2,10 @@
     padding-top: 10px;
     background-color: var(--rosaClaro);
 }
+.productos  section article .ofertas {
+    background-color: white;
+
+}
 .productos .ul{
     width: 100%;
     display: flex;

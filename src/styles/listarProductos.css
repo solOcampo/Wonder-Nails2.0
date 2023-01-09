@@ -1,7 +1,4 @@
-.listar header{
-    background-color: white;
-    height: 150px;
-}
+
 .listar h1{
     line-height: 4;
     color: white;
@@ -28,6 +25,9 @@
 }
 .listar a{
     color: var(--grisMedio)
+}
+.listar .table-responsive{
+    margin: 10px 50px 10px;
 }
 @media (min-width: 461px){
     .listar .ul .li{
